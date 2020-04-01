@@ -1,0 +1,144 @@
+body {
+	background: url('img/loro.jpg');
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	background-size: cover;
+  	-o-background-size: cover;
+  	font-family: Trebuchet MS;
+
+  }
+
+
+
+h1 {
+	color: #FFD700;
+	font-size: 30px;
+	background-color: #008B8B;
+	text-transform: uppercase;
+	padding: 17px;
+	opacity: 0.7;
+	text-align: center;
+			}
+
+h2 {
+	font-size: 16px;
+	color: black;
+	background-color: beige;
+	border-radius: 3px;
+	text-align: center;
+
+}
+
+
+#textbox {
+	font-size: 1px;
+}
+
+#testtext {
+	font-size: 1px;
+}
+
+#wichtig {
+	color: #FFD700;
+	background-color: #31BFFF;
+	border-radius: 15px;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	opacity: 0.9;
+
+			}
+
+
+#instructions {
+	text-align: center;
+	color: white;
+	background-color: black;
+	border-radius: 25px;
+	font-size: 20px;
+	opacity: 0.7;
+}
+
+
+
+#instructions2 {
+	text-align: center;
+	font-family: Arial;
+	color: #008B8B;
+	font-size: 70px;
+	position: relative;
+    width: 8px;
+    height: 20px;
+    border-width: 0 3px 3px 0;
+    padding-top: 100px;
+    padding-left: 20px;
+    margin-left: 73px;
+    transform: rotate(-20deg);
+    text-shadow: 2px 2px #008B8B;
+	
+
+}
+
+#progession {
+	font-size: 1px;
+}
+
+
+
+#start-btn {
+	border-radius: 50%;
+	float: center;
+	}
+
+
+#listen-btn {
+	border-radius: 50%;
+	float: center;
+}
+
+
+#clear-all-btn,
+#next-btn  {
+	opacity: 0.9;
+	border-radius: 49px;
+	margin-top: 20px;
+	padding: 2px;
+	border-width: 1px;
+	color: black;
+	font-size: 12px;
+
+			}
+
+
+
+#corect,
+#incorect {
+	text-align: right;
+	font-size: 16px;
+	color: black;
+	background-color: #31BFFF;
+	border-radius: 3px;
+	opacity: 0.6;
+}
+
+
+
+
+h2 {
+	text-align: center;
+	font-size: 16px;
+	color: #31BFFF ;
+	background-color: black;
+	border-radius: 3px;
+	border-style: solid;
+
+}
+
+.alert {
+	border-radius: 30px;
+	font-size: 12px;
+	color: #FFD700;
+	text-align: center;
+	background-color: black; 
+	opacity: 0.5;
+}

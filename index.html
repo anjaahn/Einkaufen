@@ -1,0 +1,175 @@
+<?php Header("Cache-Control: max-age=3000, must-revalidate"); ?>
+
+<!DOCTYPE html>
+
+<html lang="de">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+        <meta http-equiv="Pragma" content="no-cache" />
+        <meta http-equiv="Expires" content="0" />
+        <title> Ausspracheübung </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+       
+      
+
+    </head>
+
+
+
+
+    <body>
+
+
+
+<div class="container-fluid">
+
+<div class="mycontainer">
+
+  <div class="row">
+     <div class="col-sm-3" >   <p id="instructions2"> </p> </div>
+
+     <div class="col-sm-6" >  
+
+
+
+  
+        <p id="instructions" class="text-monospace"> Hallo, höre und nimm dann den gehörten Satz auf. 
+       </p>       
+
+      </div>
+
+        <div class="col-sm-3" >  </div>
+
+  </div>
+
+
+<div class="row">
+      <div class="col-sm-5">   	</div>
+
+  
+	<div class="row" id="wichtig">
+
+  
+
+  		<div class="col-sm-6">   
+
+      	 	<button id="listen-btn" title="Ecoute" class="btn btn-warning btn-lg" >
+      		 <i class="fa fa-volume-up"> </i> </button> 
+ 		 </div>
+
+  		<div class="col-sm-6">   
+ 	        <button id="start-btn" title="Start" class="btn btn-warning btn-lg"> 
+         	<i class="fa fa-microphone"> </i> </button>
+
+ 	 	</div>
+	</div>
+
+	</div>
+
+
+      
+      <div class="col-sm-5">   </div>
+</div>
+
+<div class="row">
+
+  <div class="col-sm-9" > 
+
+        <div class="btn-group-vertical btn-sm">
+      	
+ 		<button id="clear-all-btn" title="ClearAll" class="btn btn-secondary">   <i class="fa fa-undo"></i> </button>
+        <button id="next-btn" title="Next" class="btn btn-secondary">  <i class="fa fa-times" aria-hidden="true"></i> </button>
+
+
+        </div>
+  </div>
+<div class="col-sm-3"> 
+
+  
+
+      
+      <div class="col-sm">
+        
+          <h2> <i class="fa fa-trophy"></i> Wunderbar <i class="fa fa-trophy"></i> </h2>
+            <p id="corect"> </p>
+
+      </div>
+
+      <div class="col-sm">
+      <h2> <i class="fa fa-caret-right"></i> Zu Wiederholen <i class="fa fa-caret-left"></i>  </h2>
+            <p id="incorect"></p>
+
+      </div>
+
+      <div class="col-sm">
+
+<div class="alert text-monospace" role="alert" id="alert">
+
+
+
+   <i class="fa fa-sticky-note"></i> 
+
+Was findest du kompliziert? Was möchtest du im Unterricht wiederholen? Mach Notizen und berichte
+ in der nächsten Unterrichtsstunde. 
+</div>
+</div>
+
+
+     </div>
+    </div>
+  </div>
+     
+<div class="output">
+  <textarea id="testtext" cols="" rows="" wrap="hard" readonly="yes" style="visibility: hidden"> </textarea>
+</div>    
+            
+<div class="mywebapp"> 
+  <div class="input">
+    <textarea id="textbox" rows="1" cols="1" style="visibility: hidden"></textarea>
+       <p id="progression" style="visibility: hidden"> </p>
+  </div>  
+
+
+
+                   
+               
+<button id="change-btn" title="Changer" style="visibility: hidden;"> Recommencer avec les phrases à revoir.</button>
+               
+            </div>
+        </div>
+
+
+       
+
+        <div class="mycontainer" style="visibility: hidden;">
+             <h2>Vous avez prononcé :</h2> <h4 id="enCours" ></h4>
+            
+            
+        </div>
+
+
+<div class="row">
+	<div class="col-sm-3">
+
+
+
+</div class= "col-sm-9"> </div>
+
+
+         
+         <div>   
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+
+      </div>
+        
+    </body>
+</html>
